@@ -1,0 +1,442 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body{
+    background-color: #EAEDED;
+}
+
+.header{
+    /* border:3px solid dodgerblue; */
+    background-color: #131921;
+    color:white;
+    width:100%;
+    height:60px;
+}
+.upper-part1{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+}
+
+.amazon-logo img{
+    width:142.73px;
+    height:50px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    margin-left: 7px;
+    object-fit: cover;
+    border:2px solid #131921;
+}
+.amazon-logo img:hover{
+    border:2px solid white;
+}
+.loc-logo {
+    width:20px;
+}
+
+.part-2{
+    border:2px solid #131921;
+    display:flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.part-2:hover{
+    border:2px solid white;
+}
+.down{
+    display: flex;
+}
+.part-2 p{
+    /* border:2px solid white; */
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 100;
+    
+}
+.down h3{
+    margin-left:3px;
+    /* border:1px solid red; */
+    padding-top: 7px;
+}
+
+.cart-logo{
+    height:50px;
+    width:80px;
+    object-fit: cover;
+}
+
+.part-3{
+    flex:3;
+    /* border: 2px solid yellow; */
+    margin-right: 6px;
+    display: flex;
+    justify-content: flex-start;
+    height:40px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.searchbox{
+    width:717px;
+     
+}
+.part3-1{
+    display: flex;
+    
+}
+
+.part3-1{
+    /* border:2px solid pink; */
+    background-color: #F3F3F3;
+}
+
+.para{
+   color:#131921;
+   padding-top: 6px;
+}
+.search{
+    width:30px;
+    object-fit: cover;
+    background-color: #FEBD69;
+}
+
+.place{
+    padding:2px;
+    
+}
+
+.part-4{
+    flex:1;
+    border:2px solid #131921;
+    display: inline-block;
+    padding-top: 18px;
+    padding-left: 10px;
+    margin-right: 6px;
+}
+
+.part-4:hover{
+    border:2px solid white;
+}
+.ind-flag{
+    width:24px;
+    height:18px;
+    object-fit: cover;
+}
+
+.drop{
+    width:22px;
+    object-fit: cover;
+}
+
+.part-5{
+    border:2px solid #131921;
+    margin-right:6px;
+}
+
+.part-5:hover{
+    border:2px solid white;
+}
+
+.part-5 p{
+    /* border: 1px solid #232F3E; */
+    margin-top: 5px ;
+}
+.sect{
+    display: flex;
+    /* border: 2px solid white; */
+    margin-top: 1px;
+}
+
+.part-6{
+    border:2px solid #131921;
+    padding: 7px 6px;
+}
+
+.part-6:hover{
+    border:2px solid white;
+}
+.part-7{
+    border:2px solid #131921;
+    margin-left: 6px;
+}
+.part-7:hover{
+    border:2px solid white;
+
+}
+
+
+
+
+/* upper part2 */
+
+.upper-part2{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    background-color: #232F3E;
+    height:40px;
+    width:100%;
+    /* margin: 2px 0; */
+}
+
+.up-head{
+    display: flex;
+}
+.head{
+    border:2px solid #232F3E;
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 8px;
+}
+
+
+.head:hover{
+    border:2px solid white;
+}
+
+#pay{
+    margin-right: 20px;
+}
+.lion{
+    height:39px;
+    display: block;
+    float:right;
+    border:2px solid #232F3E;
+}
+
+.lion:hover{
+    border:2px solid white;
+}
+
+
+
+/* main-section */
+
+/* main-section main-1 */
+
+/* .prime img{
+    position: relative;
+} */
+/* .prime{
+    position: relative;
+} */
+
+.main-3{
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    top:380px;
+    /* height:500px; */
+}
+.box{
+    flex:1;
+    display: flex;
+    flex-wrap: wrap;
+    /* border:2px solid dodgerblue; */
+    background-color: white;
+    /* position: absolute; */
+    margin: 0 8px;
+}
+
+.box img{
+    width:90%;
+    height:280px;
+    padding-left: 44px;
+    margin-top: 18px;
+}
+
+.box h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.list img{
+    width:160px;
+    height: auto;
+    margin: 2px;
+}
+
+.list p{
+    text-align: center;
+    /* font-size: px; */
+}
+
+.list{
+    margin: 10px 2px;
+    /* border:2px solid seagreen; */
+}
+.products{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    display: flex;
+    flex:1;
+    flex-flow: column wrap;
+    /* border: 2px solid red; */
+}
+
+.box-1{
+    border:2px solid whitesmoke;
+    width:100%;
+    height:130px;
+    margin-bottom: 16px;
+    display: flex;
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    font-size: 18px;
+    padding: 14px;
+    background-color: white;
+}
+
+.btn{
+    width:80%;
+    height:28px;
+    border-radius: 8px;
+    background-color: #FFD814;
+    margin-top: 14px;
+    border:none;
+}
+/* .box-2{
+    background-color: white;
+} */
+.box-2 img{
+    border:2px solid yellow;
+    width:80%;
+    height:200px;
+    margin-left: 34px;
+    
+}
+
+a{
+    text-decoration: none;
+    margin: 6px 20px;
+    text-align: center;
+}
+
+
+/* main-4 */
+.main-4{
+    position: absolute;
+    top:760px;
+    flex:1;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    /* position: absolute;
+    top:820px; */
+}
+
+
+.sign-in{
+    position:absolute;
+    top:1090px;
+    width:100%;
+    height:200px;
+    background-color:white;
+    padding:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    font-size: 14px;
+    margin-top: 30px;
+    background-color: grey;
+}
+
+
+.spec-btn{
+    width: 200px;
+    height:24px;
+    background-color:#FFC531 ;
+    border-radius: 4px;
+    margin:5px 0;
+}
+
+.sign-in a{
+    margin-left: 0px;
+}
+
+/* .sign-in hr{
+   
+    width:100%;
+    height:1px;
+} */
+
+/* 
+footer */
+
+.footer{
+    position: absolute;
+    top:1350px;
+    background-color: #232F3E;
+    color:white;
+}
+.up{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #232F3E;
+    color:white;
+    padding: 30px;
+    line-height: 30px;
+}
+
+.mid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin:0 450px; */
+}
+
+.footer-logo{
+    width:150px;
+    /* border:2px solid greenyellow; */
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+.footer-btn{
+    width: 80px;
+    height:28px;
+    color:white;
+    margin-top: 16px;
+    background-color: #232F3E;
+    border:0.6px solid white;
+    margin-left: 80px;
+}
+
+.mid2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.mid2 a{
+    color:white;
+    margin-top: 20px;
+}
+
+.mid3{
+    text-align: center;
+    padding:15px;
+}
